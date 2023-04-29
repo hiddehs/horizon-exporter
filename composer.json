@@ -30,7 +30,7 @@
         "0": {
             "type": "vcs",
             "url": "https://github.com/hiddehs/laravel-exporter-contracts"
-        },
+        }
     },
     "scripts": {
         "test": "vendor/bin/phpunit"
