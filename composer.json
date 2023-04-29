@@ -12,8 +12,8 @@
         }
     ],
     "require": {
-        "php": "^8.0",
-        "renoki-co/laravel-exporter-contracts": "^2.0",
+        "php": "^8.2",
+        "renoki-co/laravel-exporter-contracts": "dev-master",
         "laravel/horizon": "^5.8"
     },
     "autoload": {
@@ -25,6 +25,12 @@
         "psr-4": {
             "RenokiCo\\HorizonExporter\\Test\\": "tests"
         }
+    },
+    "repositories": {
+        "0": {
+            "type": "vcs",
+            "url": "https://github.com/hiddehs/laravel-exporter-contracts"
+        },
     },
     "scripts": {
         "test": "vendor/bin/phpunit"
